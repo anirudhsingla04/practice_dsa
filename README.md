@@ -5,8 +5,21 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/anirudhsingla04/practice_dsa/tree/master/0001-two-sum) |
+| [0860-design-circular-queue](https://github.com/anirudhsingla04/practice_dsa/tree/master/0860-design-circular-queue) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/anirudhsingla04/practice_dsa/tree/master/0001-two-sum) |
+## Linked List
+|  |
+| ------- |
+| [0860-design-circular-queue](https://github.com/anirudhsingla04/practice_dsa/tree/master/0860-design-circular-queue) |
+## Design
+|  |
+| ------- |
+| [0860-design-circular-queue](https://github.com/anirudhsingla04/practice_dsa/tree/master/0860-design-circular-queue) |
+## Queue
+|  |
+| ------- |
+| [0860-design-circular-queue](https://github.com/anirudhsingla04/practice_dsa/tree/master/0860-design-circular-queue) |
 <!---LeetCode Topics End-->
