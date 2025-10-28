@@ -1,33 +1,25 @@
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
-        vector<int> ans;
-
-        for (int i = 0; i < nums1.size(); i++) {
-            int num = nums1[i];
-            int indexInNums2 = -1; // ✅ Correct: to store position of nums1[i] in nums2
-
-            // ✅ Step 1: Find where nums1[i] occurs in nums2
-            for (int j = 0; j < nums2.size(); j++) {
-                if (nums2[j] == num) {
-                    indexInNums2 = j;
-                    break; // stop once found
-                }
+        stack<int> s;
+        unordered_map<int,int> m;
+        for(int i=nums2.size()-1;i>=0;i--){
+            while(s.size()>0 && s.top()<nums2[i]){
+                s.pop();
             }
-
-            int nextGreater = -1; // default if none found
-
-            // ✅ Step 2: Look for a number greater than nums1[i] after its position
-            for (int k = indexInNums2 + 1; k < nums2.size(); k++) {
-                if (nums2[k] > num) {
-                    nextGreater = nums2[k];
-                    break; // stop at first greater element
-                }
+            if(s.empty()){
+                m[nums2[i]]=-1;
             }
-
-            ans.push_back(nextGreater); // ✅ Add correct answer for nums1[i]
+            else{
+                m[nums2[i]]=s.top();
+            }
+            s.push(nums2[i]);
         }
-
+        vector<int> ans;
+        for(int j=0;j<nums1.size();j++){
+            ans.push_back(m[nums1[j]]);
+        }
         return ans;
+
     }
 };
