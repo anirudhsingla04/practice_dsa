@@ -36,4 +36,16 @@
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/anirudhsingla04/practice_dsa/tree/master/0496-next-greater-element-i) |
+## Math
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/anirudhsingla04/practice_dsa/tree/master/0231-power-of-two) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/anirudhsingla04/practice_dsa/tree/master/0231-power-of-two) |
+## Recursion
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/anirudhsingla04/practice_dsa/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
